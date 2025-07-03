@@ -1,0 +1,93 @@
+.k{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(port.jpg);
+    background-position: center;
+    background-size:contain;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86px;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul{
+    margin-top: -4px;
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color:whitesmoke;
+    margin-top: -3%;
+}
+ul li a:hover{
+color: blueviolet;
+
+}
+.info{
+    color: antiquewhite;
+    font-size: 65px;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 55px;
+    color: whitesmoke;
+}
+.info h3{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: orangered;
+}
+.info a{
+    text-decoration: none;
+    color: whitesmoke;
+    background: rgb(36,32 ,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.info a:hover{
+    background-color: blue;
+}
+.portfolio{
+    position: relative;
+    right: -50px;
+    border-radius: 50%;
+    
+}
+.portfolio-pic{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    border-style: groove;
+    animation: glow 2s timing-function delay iteration-count direction fill-mode;
+    object-fit: cover;
+    border: 5px solid;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.2);
+    position: relative;
+    left: 200px;
+    top: -500px;
+    
+}
+
