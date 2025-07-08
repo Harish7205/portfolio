@@ -70,24 +70,70 @@ color: blueviolet;
 .info a:hover{
     background-color: blue;
 }
-.portfolio{
-    position: relative;
-    right: -50px;
-    border-radius: 50%;
-    
-}
-.portfolio-pic{
+
+
+.ii{
     width: 200px;
-    height: 150px;
-    border-radius: 50%;
+    height: 200px;
+    border-radius: 90%;
     border-style: groove;
     animation: glow 2s timing-function delay iteration-count direction fill-mode;
     object-fit: cover;
     border: 5px solid;
     box-shadow: 0 0 10px rgba(0, 0,0, 0.2);
     position: relative;
-    left: 200px;
-    top: -500px;
+    left: 1200px;
+    top: -2900px;
+    
+    display: flex;
+    
+    
+}
+.B{
+    position: relative;
+    left: 10px;
+    margin: 10PX;
+    padding: 10PX;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color:purple;
+    border-radius: 10%;
+    border-style: dashed;
+    color: whitesmoke;
+}
+.img{
+    position: relative;
+    right: 50px;
+    overflow: -moz-hidden-unscrollable;
     
 }
 
+
+.c span{
+    color: orangered;
+}
+.D SPAN{
+    color: orangered;
+}
+.frontend span{
+    color:orangered;
+}
+.frontend{
+    background-color: aqua;
+    border-color: black;
+    box-sizing: content-box;
+    border-style: dotted;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.clc{
+    background-color: aqua;
+    border-color: black;
+    box-sizing: content-box;
+    border-style: dotted;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
